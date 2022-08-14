@@ -44,3 +44,22 @@ body{
         transform: translateY(-10vh) scale(1);
     }
 }
+@media screen and (max-width:420px) {
+    body{
+        height: 100%;
+    }
+    .bubble span{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0;
+        box-shadow: 0 0 0 4px #4fc3dc44,
+        0 0 15px #4fc3dc,
+        0 0 20px #4fc3dc;
+    }.bubble span:nth-child(even){
+        background: #ff2d75;
+        box-shadow: 0 0 0 5px #ff2d7544,
+        0 0 20px #ff2d75,
+        0 0 60px #ff2d75;
+    }
+}
